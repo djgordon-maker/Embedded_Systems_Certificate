@@ -1,0 +1,192 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  08/Dec/2019  16:23:46
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =  C:\UW_Workspace\embsys100\assignment07\Debug\Exe\Q1.out
+#    Map file     =  C:\UW_Workspace\embsys100\assignment07\Debug\List\Q1.map
+#    Command line =
+#        -f C:\Users\Daniel\AppData\Local\Temp\EW503A.tmp
+#        (C:\UW_Workspace\embsys100\assignment07\Debug\Obj\main.o
+#        C:\UW_Workspace\embsys100\assignment07\Debug\Obj\startup_stm32f401xe.o
+#        --no_out_extension -o
+#        C:\UW_Workspace\embsys100\assignment07\Debug\Exe\Q1.out --map
+#        C:\UW_Workspace\embsys100\assignment07\Debug\List\Q1.map --config
+#        "C:\Program Files (x86)\IAR Systems\Embedded Workbench
+#        8.3\arm\config\linker\ST\stm32f401xE.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x807'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2001'7fff] {
+          rw, block CSTACK, block HEAP };
+
+  Section          Kind         Address    Size  Object
+  -------          ----         -------    ----  ------
+"A0":                                      0x40
+  .intvec          const     0x800'0000    0x40  startup_stm32f401xe.o [1]
+                           - 0x800'0040    0x40
+
+"P1":                                     0x170
+  .text            ro code   0x800'0040    0x98  main.o [1]
+  .text            ro code   0x800'00d8    0x3a  zero_init3.o [3]
+  .text            ro code   0x800'0112    0x12  startup_stm32f401xe.o [1]
+  .text            ro code   0x800'0124    0x28  data_init.o [3]
+  .iar.init_table  const     0x800'014c    0x10  - Linker created -
+  .text            ro code   0x800'015c    0x1e  cmain.o [3]
+  .text            ro code   0x800'017a     0x4  low_level_init.o [2]
+  .text            ro code   0x800'017e     0x4  exit.o [2]
+  .text            ro code   0x800'0184     0xa  cexit.o [3]
+  .text            ro code   0x800'0190    0x14  exit.o [4]
+  .text            ro code   0x800'01a4     0xc  cstartup_M.o [3]
+  .rodata          const     0x800'01b0     0x0  zero_init3.o [3]
+                           - 0x800'01b0   0x170
+
+"P2", part 1 of 2:                          0x8
+  .bss             zero     0x2000'0000     0x4  main.o [1]
+  .bss             zero     0x2000'0004     0x1  main.o [1]
+                          - 0x2000'0005     0x5
+
+"P2", part 2 of 2:                       0x2000
+  CSTACK                    0x2000'0008  0x2000  <Block>
+    CSTACK         uninit   0x2000'0008  0x2000  <Block tail>
+                          - 0x2000'2008  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'01b0   0x807'ffff  0x7'fe50
+  0x2000'2008  0x2001'7fff  0x1'5ff8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x5:
+          0x2000'0000   0x5
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+command line/config:
+    ------------------------------------------------
+    Total:
+
+C:\UW_Workspace\embsys100\assignment07\Debug\Obj: [1]
+    main.o                     152                 5
+    startup_stm32f401xe.o       18       64
+    ------------------------------------------------
+    Total:                     170       64        5
+
+dl7M_tln.a: [2]
+    exit.o                       4
+    low_level_init.o             4
+    ------------------------------------------------
+    Total:                       8
+
+rt7M_tl.a: [3]
+    cexit.o                     10
+    cmain.o                     30
+    cstartup_M.o                12
+    data_init.o                 40
+    zero_init3.o                58
+    ------------------------------------------------
+    Total:                     150
+
+shb_l.a: [4]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Gaps                         4
+    Linker created                       16    8'192
+----------------------------------------------------
+    Grand Total:               352       80    8'197
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base    0x800'014c         --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'015c         --   Gb  - Linker created -
+?main                    0x800'015d        Code  Gb  cmain.o [3]
+BusFault_Handler         0x800'0119   0x2  Code  Gb  startup_stm32f401xe.o [1]
+CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2008        Data  Gb  - Linker created -
+DebugMon_Handler         0x800'011f   0x2  Code  Gb  startup_stm32f401xe.o [1]
+HardFault_Handler        0x800'0115   0x2  Code  Gb  startup_stm32f401xe.o [1]
+MemManage_Handler        0x800'0117   0x2  Code  Gb  startup_stm32f401xe.o [1]
+NMI_Handler              0x800'0113   0x2  Code  Gb  startup_stm32f401xe.o [1]
+PendSV_Handler           0x800'0121   0x2  Code  Gb  startup_stm32f401xe.o [1]
+Region$$Table$$Base      0x800'014c         --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'015c         --   Gb  - Linker created -
+SVC_Handler              0x800'011d   0x2  Code  Gb  startup_stm32f401xe.o [1]
+SysTick_Handler          0x800'0123   0x2  Code  Gb  startup_stm32f401xe.o [1]
+UsageFault_Handler       0x800'011b   0x2  Code  Gb  startup_stm32f401xe.o [1]
+__cmain                  0x800'015d        Code  Gb  cmain.o [3]
+__exit                   0x800'0191  0x14  Code  Gb  exit.o [4]
+__iar_data_init3         0x800'0125  0x28  Code  Gb  data_init.o [3]
+__iar_program_start      0x800'01a5        Code  Gb  cstartup_M.o [3]
+__iar_zero_init3         0x800'00d9  0x3a  Code  Gb  zero_init3.o [3]
+__low_level_init         0x800'017b   0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000  0x40  Data  Gb  startup_stm32f401xe.o [1]
+_call_main               0x800'0169        Code  Gb  cmain.o [3]
+_exit                    0x800'0185        Code  Gb  cexit.o [3]
+_main                    0x800'0177        Code  Gb  cmain.o [3]
+count                   0x2000'0000   0x4  Data  Gb  main.o [1]
+delay                    0x800'008b  0x2c  Code  Gb  main.o [1]
+exit                     0x800'017f   0x4  Code  Gb  exit.o [2]
+main                     0x800'0041  0x4a  Code  Gb  main.o [1]
+ready                   0x2000'0004   0x1  Data  Gb  main.o [1]
+
+
+[1] = C:\UW_Workspace\embsys100\assignment07\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+    352 bytes of readonly  code memory
+     80 bytes of readonly  data memory
+  8'197 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

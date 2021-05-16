@@ -1,0 +1,226 @@
+[
+  {
+    "ID": "c:main.c@49@macro@RCC_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_BASE",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment03\\main.c"
+    },
+    "name": "RCC_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@135@macro@GPIOA_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_BASE",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment03\\main.c"
+    },
+    "name": "GPIOA_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@268@macro@RCC_AHB1ENR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_AHB1ENR",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment03\\main.c"
+    },
+    "name": "RCC_AHB1ENR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@351@macro@GPIOA_MODER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment03\\main.c"
+    },
+    "name": "GPIOA_MODER",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@433@macro@GPIOA_ODR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_ODR",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment03\\main.c"
+    },
+    "name": "GPIOA_ODR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@564@macro@GPIOA",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment03\\main.c"
+    },
+    "name": "GPIOA",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@662@macro@MODER5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODER5",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment03\\main.c"
+    },
+    "name": "MODER5",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@770@macro@ODR5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ODR5",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment03\\main.c"
+    },
+    "name": "ODR5",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@unit",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "unit",
+    "location": {
+      "column": "5",
+      "line": "13",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment03\\main.c"
+    },
+    "name": "unit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@dash",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void dash(void)",
+    "location": {
+      "column": "6",
+      "line": "15",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment03\\main.c"
+    },
+    "name": "dash",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@925@F@dash@count",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "count",
+    "location": {
+      "column": "7",
+      "line": "16",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment03\\main.c"
+    },
+    "name": "count",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@dot",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void dot(void)",
+    "location": {
+      "column": "6",
+      "line": "24",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment03\\main.c"
+    },
+    "name": "dot",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1195@F@dot@count",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "count",
+    "location": {
+      "column": "7",
+      "line": "25",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment03\\main.c"
+    },
+    "name": "count",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@next",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void next(void)",
+    "location": {
+      "column": "6",
+      "line": "35",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment03\\main.c"
+    },
+    "name": "next",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1514@F@next@count",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "count",
+    "location": {
+      "column": "7",
+      "line": "36",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment03\\main.c"
+    },
+    "name": "count",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "40",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment03\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]

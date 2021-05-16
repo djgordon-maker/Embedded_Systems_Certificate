@@ -1,0 +1,72 @@
+[
+  {
+    "ID": "c:@F@sum5",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int sum5(int, int, int, int, int)",
+    "location": {
+      "column": "5",
+      "line": "2",
+      "path": "C:\\UW_Workspace\\embsys100\\main.c"
+    },
+    "name": "sum5",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@50@F@sum5@sum1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "sum1",
+    "location": {
+      "column": "7",
+      "line": "3",
+      "path": "C:\\UW_Workspace\\embsys100\\main.c"
+    },
+    "name": "sum1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@71@F@sum5@sum2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "sum2",
+    "location": {
+      "column": "7",
+      "line": "4",
+      "path": "C:\\UW_Workspace\\embsys100\\main.c"
+    },
+    "name": "sum2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@92@F@sum5@sum3",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "sum3",
+    "location": {
+      "column": "7",
+      "line": "5",
+      "path": "C:\\UW_Workspace\\embsys100\\main.c"
+    },
+    "name": "sum3",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "9",
+      "path": "C:\\UW_Workspace\\embsys100\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]

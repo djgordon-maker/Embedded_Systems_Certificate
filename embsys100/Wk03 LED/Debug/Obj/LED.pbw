@@ -1,0 +1,100 @@
+[
+  {
+    "ID": "c:main.c@8@macro@RCC_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_BASE",
+    "location": {
+      "column": "9",
+      "line": "1",
+      "path": "C:\\UW_Workspace\\embsys100\\Wk03 LED\\main.c"
+    },
+    "name": "RCC_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@40@macro@RCC_AHB1ENR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_AHB1ENR",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "C:\\UW_Workspace\\embsys100\\Wk03 LED\\main.c"
+    },
+    "name": "RCC_AHB1ENR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@93@macro@GPIOA_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_BASE",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\UW_Workspace\\embsys100\\Wk03 LED\\main.c"
+    },
+    "name": "GPIOA_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@125@macro@GPIOA_MODER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\UW_Workspace\\embsys100\\Wk03 LED\\main.c"
+    },
+    "name": "GPIOA_MODER",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@178@macro@GPIOA_ODR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_ODR",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\UW_Workspace\\embsys100\\Wk03 LED\\main.c"
+    },
+    "name": "GPIOA_ODR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter",
+    "location": {
+      "column": "5",
+      "line": "6",
+      "path": "C:\\UW_Workspace\\embsys100\\Wk03 LED\\main.c"
+    },
+    "name": "counter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "8",
+      "path": "C:\\UW_Workspace\\embsys100\\Wk03 LED\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]

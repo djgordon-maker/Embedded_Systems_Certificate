@@ -1,0 +1,170 @@
+[
+  {
+    "ID": "c:@F@swap_pointer",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void swap_pointer(int **, int **)",
+    "location": {
+      "column": "6",
+      "line": "1",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment05\\main.c"
+    },
+    "name": "swap_pointer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@swapCharsAsm",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int swapCharsAsm(char *, char *)",
+    "location": {
+      "column": "6",
+      "line": "2",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment05\\main.c"
+    },
+    "name": "swapCharsAsm",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "4",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment05\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@89@F@main@x",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "x",
+    "location": {
+      "column": "7",
+      "line": "6",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment05\\main.c"
+    },
+    "name": "x",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@104@F@main@y",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "y",
+    "location": {
+      "column": "7",
+      "line": "7",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment05\\main.c"
+    },
+    "name": "y",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@119@F@main@xPtr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "xPtr",
+    "location": {
+      "column": "8",
+      "line": "8",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment05\\main.c"
+    },
+    "name": "xPtr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@138@F@main@yPtr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "yPtr",
+    "location": {
+      "column": "8",
+      "line": "9",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment05\\main.c"
+    },
+    "name": "yPtr",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@192@F@main@charA",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "charA",
+    "location": {
+      "column": "8",
+      "line": "12",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment05\\main.c"
+    },
+    "name": "charA",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@213@F@main@charB",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "charB",
+    "location": {
+      "column": "8",
+      "line": "13",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment05\\main.c"
+    },
+    "name": "charB",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@234@F@main@ans",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "ans",
+    "location": {
+      "column": "7",
+      "line": "14",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment05\\main.c"
+    },
+    "name": "ans",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@swap_pointer",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void swap_pointer(int **, int **)",
+    "location": {
+      "column": "6",
+      "line": "23",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment05\\main.c"
+    },
+    "name": "swap_pointer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@418@F@swap_pointer@temp_ptr",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "temp_ptr",
+    "location": {
+      "column": "8",
+      "line": "24",
+      "path": "C:\\UW_Workspace\\embsys100\\assignment05\\main.c"
+    },
+    "name": "temp_ptr",
+    "origin": "project_file",
+    "scope": null
+  }
+]
