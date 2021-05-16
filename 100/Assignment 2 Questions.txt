@@ -1,0 +1,32 @@
+1. Inject 0x1FFFFFFF and add one
+a) Local value is 536870912
+b) Register value is 0x20000000
+c) APSR has no flags set. Its a positive, non zero number, and the last action did not cause an overflow or a carry bit
+
+2. Inject 0xFFFFFFFF and add one
+a) Local value is 0
+b) APSR 'C' and 'Z' flags are set.  The last add one resulted in a carry bit and returned zero
+
+
+3. Inject 0x1FFFFFFF in an unsigned variable and add one
+a) Local value is 536870912
+b) APSR has no flags set. Its a positive, non zero number, and the last action did not cause an overflow or a carry bit
+
+4. Inject 0x1FFFFFFF in an unsigned variable and add one
+a) Local value is 0
+b) APSR 'C' and 'Z' flags are set.  The last add one resulted in a carry bit and returned zero
+
+5. Move counter to top of file
+a) counter is global
+b) It is not visible in the Local view
+c) Track counter in the Watch view
+d) 0x20000000
+
+6. Run new program
+a) The value of counter is 4
+b) This first line of main() assigns the address of counter to p_int.  The next three lines add one to the value stored at the address stored in p_int, infact adding one to counter.
+
+7. Run same program on board
+a) Counter is stored at 0x20000000
+b) Counter is stored in RAM
+c) At the end of the program Counter's value is 4
